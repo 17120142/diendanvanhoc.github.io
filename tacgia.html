@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tác giả</title>
+    <meta charset="utf-8">
+    <meta name="author" content="pixelhint.com">
+    <meta name="description" content="La casa free real state fully responsive html5/css3 home page website template"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="main.js"></script>2
+    <style type="text/css">
+        h5{
+            font-size: 20px;
+            margin: 1.5em 0;
+            color: #626262;
+            font-family: "lato-regular", Helvetica, Arial, sans-serif;
+            letter-spacing: 1px;
+        }
+    </style>
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
+<!--    <link rel="stylesheet" href="tacgia.css">-->
+
+    <!--    https://wikidich.com/static/css/utils/materialize-wiki.min.css-->
+</head>
+<body>
+
+<section class="hero">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary" style="opacity: 0.8">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Diễn đàn</a></li>
+                    <li class=" sub nav-item "><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Thể loại<b class="caret"></b></a>
+                        <ul>
+                            <li><a> Văn học Việt Nam</a></li>
+                            <li><a>Văn học Nước Ngoài</a></li>
+                            <li><a>Truyện ngắn</a></li>
+                        </ul></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Tác giả</a></li>
+                    <li class="nav-item active"><a href="search.html" class="nav-link">Tìm truyện</a></li>
+                    <li class="sub nav-item"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Hướng dẫn</a>
+                        <ul>
+                            <li><a> Quy định</a></li>
+                            <li><a>Giới thiệu</a></li>
+                        </ul></li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <a href="login.html" class="login_btn">Login</a>
+                    <a href="register.html" class="login_btn">Sign up</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+</section>
+<div class="container" style="max-width: 1140px ; size: 18px">
+
+<!--    <div class="quick-search-box"><link href=/static/css/wiki/quick-search.min.css type="text/css" rel="stylesheet"-->
+<!--                                        media="screen,projection"/>-->
+
+        <form id="formQuickSearch" action="/tim-kiem" style="float: right;margin-bottom: 21px;">
+            <input id="txtSearch" name="q" type="text" placeholder="Tìm kiếm" value="" required>
+            <input type="hidden" name="qs" value="1">
+            <button class="btn-flat" id="btnSearch" type="submit" style="background-color:#109932;height: 35px;width: 100px;"><i class="material-icons">search</i></button>
+        </form>
+    <div class="sort-box" >
+        <div class="sort-lbl" style="width: 11%;">Tác giả <i class="fa fa-angle-right" aria-hidden="true"></i></div>
+        <div class="alpha-box" style="float: right;width: 89%;">
+            <div class="alpha" >
+                <a href="/tac-gia" class="all-btn active" style="padding-right: 15px" >All</a>
+
+                <a href="/tac-gia?al=A" class="" style="padding-right: 15px">A</a>
+
+                <a href="/tac-gia?al=B" class="" style="padding-right: 15px">B</a>
+
+                <a href="/tac-gia?al=C" class="" style="padding-right: 15px">C</a>
+
+                <a href="/tac-gia?al=D" class="" style="padding-right: 15px">D</a>
+
+                <a href="/tac-gia?al=E" class=""style="padding-right: 15px">E</a>
+
+                <a href="/tac-gia?al=F" class="" style="padding-right: 15px">F</a>
+
+                <a href="/tac-gia?al=G" class="" style="padding-right: 15px">G</a>
+
+                <a href="/tac-gia?al=H" class="" style="padding-right: 15px">H</a>
+
+                <a href="/tac-gia?al=I" class=""style="padding-right: 15px">I</a>
+
+                <a href="/tac-gia?al=J" class=""style="padding-right: 15px">J</a>
+
+                <a href="/tac-gia?al=K" class=""style="padding-right: 15px">K</a>
+
+                <a href="/tac-gia?al=L" class=""style="padding-right: 15px">L</a>
+
+                <a href="/tac-gia?al=M" class=""style="padding-right: 15px">M</a>
+
+                <a href="/tac-gia?al=N" class=""style="padding-right: 15px">N</a>
+
+                <a href="/tac-gia?al=O" class=""style="padding-right: 15px">O</a>
+
+                <a href="/tac-gia?al=P" class=""style="padding-right: 15px">P</a>
+
+                <a href="/tac-gia?al=Q" class=""style="padding-right: 15px">Q</a>
+
+                <a href="/tac-gia?al=R" class=""style="padding-right: 15px">R</a>
+
+                <a href="/tac-gia?al=S" class=""style="padding-right: 15px">S</a>
+
+                <a href="/tac-gia?al=T" class=""style="padding-right: 15px">T</a>
+
+                <a href="/tac-gia?al=U" class=""style="padding-right: 15px">U</a>
+
+                <a href="/tac-gia?al=V" class=""style="padding-right: 15px">V</a>
+
+                <a href="/tac-gia?al=W" class=""style="padding-right: 15px">W</a>
+
+                <a href="/tac-gia?al=X" class=""style="padding-right: 15px">X</a>
+
+                <a href="/tac-gia?al=Y" class=""style="padding-right: 15px">Y</a>
+
+                <a href="/tac-gia?al=Z" class=""style="padding-right: 15px">Z</a>
+
+            </div>
+        </div>
+    <table class="table table-sm table-striped " >
+        <tbody>
+        <tr>
+
+            <th><a href="" > <strong>Đoàn Thị Điểm</strong></a> </th>
+
+            <th><a href="" > <b>Lê Thị Ỷ Lan</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Hồ Xuân Hương</b></a> </th>
+            <th><a href="" > <b>Nguyễn Thị Hinh</b></a></th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Hoàng Ngọc Phách</b></a> </th>
+
+            <th><a href="" > <b>Mã A Lềnh </b></a></th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>Bùi Nguyên Khiết </b></a> </th>
+
+            <th><a href="" > <b>Ma Văn Kháng </b></a></th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Trương Vĩnh Ký</b></a> </th>
+            <th><a href="" > <b>Phan Ý Yên</b></a> </th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>Anh Khang</b></a> </th>
+            <th><a href="" > <b>Tuệ Nghi</b></a> </th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>Nhật Chiêu</b></a> </th>
+            <th><a href="" > <b>Nguyễn Bình Phương</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Nguyễn Ngọc Tư</b></a> </th>
+            <th><a href="" > <b>Bùi Ngọc Tấn</b></a> </th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>Iris Cao</b></a> </th>
+            <th><a href="" > <b>Hamlet Trương</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Đỗ Nhật Nam</b></a> </th>
+            <th><a href="" > <b>Nguyễn Ngọc Thạch</b></a> </th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>Gào</b></a> </th>
+            <th><a href="" > <b>Sơn Paris</b></a> </th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>Nguyễn Phong Việt</b></a> </th>
+            <th><a href="" > <b>Trang Hạ</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Nguyễn Nhật Ánh</b></a> </th>
+            <th><a href="" > <b>Ngô Tất Tố</b></a> </th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>Tô Hoài </b></a> </th>
+            <th><a href="" > <b>Thạch Lam</b></a> </th>
+        </tr>
+
+
+        <tr>
+            <th><a href="" > <b>Phạm Đình Hổ</b></a> </th>
+            <th><a href="" > <b>Nguyên Hồng</b></a> </th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>Ngô Thị Giáng Uyên</b></a> </th>
+            <th><a href="" > <b>J. K. Rowling</b></a> </th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>Miguel de Cervantes</b></a> </th>
+            <th><a href="" > <b>Gabriel García Márquez</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Toni Morrison</b></a> </th>
+            <th><a href="" > <b>Vladimir Vladimirovich Nabokov</b></a> </th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>J. D. Salinger</b></a> </th>
+            <th><a href="" > <b>Herman Melville </b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Agatha Christie</b></a> </th>
+            <th><a href="" > <b>Edgar Allan Poe</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Arthur Conan Doyle</b></a> </th>
+            <th><a href="" > <b>Oscar Wilde</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>JFranz Kafka</b></a> </th>
+            <th><a href="" > <b>Virginia Woolf</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>C. S. Lewis</b></a> </th>
+            <th><a href="" > <b>James Joyce</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Fyodor Mikhaylovich Dostoyevsky</b></a> </th>
+            <th><a href="" > <b>J. R. R. Tolkien</b></a> </th>
+        </tr>
+        <tr>
+            <th><a href="" > <b>William Faulkner</b></a> </th>
+            <th><a href="" > <b>Mark Twain</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>F. Scott Fitzgerald</b></a> </th>
+            <th><a href="" > <b>Jane Austen </b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Charles Dickens</b></a> </th>
+            <th><a href="" > <b>Lev Nikolayevich Tolstoy</b></a> </th>
+        </tr>
+
+        <tr>
+            <th><a href="" > <b>Ernest Hemingway</b></a> </th>
+            <th><a href="" > <b>William Shakespeare</b></a> </th>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+<!--    <div class="author-list-box">-->
+<!--&lt;!&ndash;        <div class="box-title">&ndash;&gt;-->
+<!--&lt;!&ndash;            <div class="name-col">&ndash;&gt;-->
+<!--&lt;!&ndash;                Tên tác giả&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            <div class="count-col">&ndash;&gt;-->
+<!--&lt;!&ndash;                Số lượng truyện&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+<!--        <ul class="author-list">-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E6%97%A0">Vô</a></div><div class="count-col">62 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E5%8D%97%E5%AE%AB%E5%8D%81%E4%B9%9D">Nam Cung Thập Cửu</a></div><div class="count-col">52 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E5%8D%97%E6%9E%9D">Nam Chi</a></div><div class="count-col">48 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E5%8C%BF%E5%90%8D%E9%9D%92%E8%8A%B1%E9%B1%BC">Nặc Danh Thanh Hoa Ngư</a></div><div class="count-col">48 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E5%85%AC%E5%AD%90%E7%AF%B1">Công Tử Li</a></div><div class="count-col">45 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E9%9D%92%E8%A1%A3%E6%88%90%E7%99%BD">Thanh Y Thành Bạch</a></div><div class="count-col">41 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E7%A7%8B%E5%87%8C">Thu Lăng</a></div><div class="count-col">40 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E9%9B%BE%E5%8D%81">Vụ Thập</a></div><div class="count-col">40 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E6%B1%9F%E5%8D%97%E9%AD%82%E5%A7%91%E5%A8%98">Giang Nam Hồn Cô Nương</a></div><div class="count-col">38 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E9%85%A5%E6%B2%B9%E9%A5%BC">Tô Du Bính</a></div><div class="count-col">38 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E5%91%A8%E5%BC%AF%E5%BC%AF">Chu Loan Loan</a></div><div class="count-col">37 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E5%BB%BF%E4%B9%B1">Nhập Loạn</a></div><div class="count-col">37 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E6%B0%B4%E5%BF%83%E6%B8%85%E6%B9%84">Thủy Tâm Thanh Mi</a></div><div class="count-col">37 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E5%85%AC%E5%AD%90%E5%AF%BB%E6%AC%A2">Công Tử Tầm Hoan</a></div><div class="count-col">36 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E5%90%95%E5%A4%A9%E9%80%B8">Lữ Thiên Dật</a></div><div class="count-col">36 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E4%B8%89%E5%8D%83%E4%B8%96">Tam Thiên Thế</a></div><div class="count-col">36 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E7%AC%91%E4%BD%B3%E4%BA%BA">Tiếu Giai Nhân</a></div><div class="count-col">36 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E5%93%88%E5%B0%BC%E9%9B%85">Cáp Ni Nhã</a></div><div class="count-col">35 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E5%A4%9C%E7%B4%AB%E9%9B%A8">Dạ Tử Vũ</a></div><div class="count-col">35 truyện</div></div></li>-->
+
+<!--            <li><div class="author-item"><div class="name-col"><a href="/tac-gia/%E6%AC%A3%E6%AC%A3%E5%90%91%E8%8D%A3">Hân Hân Hướng Vinh</a></div><div class="count-col">35 truyện</div></div></li>-->
+
+<!--        </ul>-->
+
+<!--        <div style="margin-top: 2rem; height: 25px; text-align: center">-->
+
+<!--            <ul class="pagination" style="margin: 0; display: inline-block">-->
+
+
+
+<!--                <li class=" active " style="">-->
+<!--                    <a href=" #! ">1</a>-->
+<!--                </li>-->
+
+<!--                <li class=" waves-effect " style="">-->
+<!--                    <a href=" /tac-gia?start=20 ">2</a>-->
+<!--                </li>-->
+
+<!--                <li class=" waves-effect " style="">-->
+<!--                    <a href=" /tac-gia?start=40 ">3</a>-->
+<!--                </li>-->
+
+<!--                <li class=" waves-effect " style="">-->
+<!--                    <a href=" /tac-gia?start=60 ">4</a>-->
+<!--                </li>-->
+
+<!--                <li class=" waves-effect " style="">-->
+<!--                    <a href=" /tac-gia?start=80 ">5</a>-->
+<!--                </li>-->
+
+<!--                <li class=" waves-effect " style="">-->
+<!--                    <a href=" /tac-gia?start=100 ">6</a>-->
+<!--                </li>-->
+
+<!--                <li class=" waves-effect " style="">-->
+<!--                    <a href=" /tac-gia?start=120 ">7</a>-->
+<!--                </li>-->
+
+<!--                <li class=" waves-effect " style="">-->
+<!--                    <a href=" /tac-gia?start=140 ">8</a>-->
+<!--                </li>-->
+
+<!--                <li class=" waves-effect " style="">-->
+<!--                    <a href=" /tac-gia?start=160 ">9</a>-->
+<!--                </li>-->
+
+<!--                <li class=" waves-effect " style="">-->
+<!--                    <a href=" /tac-gia?start=180 ">10</a>-->
+<!--                </li>-->
+
+
+<!--                <li class="waves-effect"><a href="/tac-gia?start=20"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>-->
+
+
+<!--                <li class="waves-effect"><a href="/tac-gia?start=117760"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>-->
+
+<!--            </ul>-->
+<hr class="featurette-divider">
+</div>
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h5 class="ftco-heading-2">Giới thiệu</h5>
+                    <p>   Đây là trang web văn học miễn phí, phục vụ cho các bạn trong việc trao đổi văn học, chia sẻ niềm đam mê văn học với tất cả mọi người</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                        <li class="ftco-animate"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        <li class="ftco-animate"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="ftco-animate"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h5 class="ftco-heading-2">Liên kết</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Trang chủ</a></li>
+                        <li><a href="#" class="py-2 d-block">Thể loại</a></li>
+                        <li><a href="#" class="py-2 d-block">Tác giả</a></li>
+                        <li><a href="#" class="py-2 d-block">Tìm truyện</a></li>
+                        <li><a href="#" class="py-2 d-block">Hướng dẫn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h5 class="ftco-heading-2">Trợ giúp</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Đăng kí</a></li>
+                        <li><a href="#" class="py-2 d-block">Báo lỗi</a></li>
+                        <li><a href="#" class="py-2 d-block">Bảo mật</a></li>
+                        <li><a href="#" class="py-2 d-block">Liên hệ</a></li>
+                        <li><a href="#" class="py-2 d-block">Điều lệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h5 class="ftco-heading-2">Liên hệ</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Email:group17@email.com</a></li>
+                        <li><a href="#" class="py-2 d-block">FB:Group17</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

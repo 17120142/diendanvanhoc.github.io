@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thể loại</title>
+    <meta charset="utf-8">
+    <meta name="author" content="pixelhint.com">
+    <meta name="description" content="La casa free real state fully responsive html5/css3 home page website template"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <style type="text/css">
+        h5{
+            font-size: 20px;
+            margin: 1.5em 0;
+            color: #626262;
+            font-family: "lato-regular", Helvetica, Arial, sans-serif;
+            letter-spacing: 1px;
+        }
+        .col-xs-6{
+            margin: 25px;
+        }
+        .thumbnail img{
+            width:160px;
+            height: 225px;
+        }
+        .tieude{
+            size: 15px;
+        }
+        .chinh-sach{
+            width: 150px;
+            height: 225px;
+        }
+        .pagination > li > a
+        {
+            background-color: white;
+            color: green
+        }
+
+        .page-item.active .page-link
+        {
+            background-color:green;
+            border-color:green
+        }
+
+        .pagination > li > a:focus,
+        .pagination > li > a:hover,
+        .pagination > li > span:focus,
+        .pagination > li > span:hover
+        {
+            color: green;
+            background-color: #eee;
+            border-color: #ddd;
+        }
+
+        .pagination > .active > a
+        {
+            color: white;
+            background-color: green;
+            border: solid 1px green;
+        }
+
+        .pagination > .active > a:hover
+        {
+            background-color: green;
+            border: solid 1px green;
+        }
+
+    </style>
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
+
+    <!--    <link rel="stylesheet" href="tacgia.css">-->
+
+    <!--    https://wikidich.com/static/css/utils/materialize-wiki.min.css-->
+
+</head>
+<body>
+<section class="hero">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary" style="opacity: 0.8">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Diễn đàn</a></li>
+                    <li class=" sub nav-item "><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Thể loại<b class="caret"></b></a>
+                        <ul>
+                            <li><a> Văn học Việt Nam</a></li>
+                            <li><a>Văn học Nước Ngoài</a></li>
+                            <li><a>Truyện ngắn</a></li>
+                        </ul></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Tác giả</a></li>
+                    <li class="nav-item active"><a href="search.html" class="nav-link">Tìm truyện</a></li>
+                    <li class="sub nav-item"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Hướng dẫn</a>
+                        <ul>
+                            <li><a> Quy định</a></li>
+                            <li><a>Giới thiệu</a></li>
+                        </ul></li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <a href="login.html" class="login_btn">Login</a>
+                    <a href="register.html" class="login_btn">Sign up</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+</section>
+
+<div class="container" style="width: 88% ; ">
+    <!--    <form id="formQuickSearch" action="/tim-kiem" style="float: right;margin-bottom: 21px;">-->
+    <!--        <input id="txtSearch" name="q" type="text" placeholder="Tìm kiếm" value="" required>-->
+    <!--        <input type="hidden" name="qs" value="1">-->
+    <!--        <button class="btn-flat" id="btnSearch" type="submit" style="background-color:#109932;height: 35px;width: 100px;"><i class="material-icons">search</i></button>-->
+    <!--    </form>-->
+
+    <div class="col-xl-10 bg-secondary" style="margin: auto; font-size: 18px; margin-top: 15px; color: white">Thể loại </div>
+    <div class="row">
+        <div class="col-md-9" style="padding-left: 67px">
+
+            <div class="panel-body">
+
+
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/cuoc-doi-dai-lam.jpg" alt="Cuộc Đời Daì Lắm" class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/cuoc-doi-ngoai-cua.jpg" alt="Cuộc Đời Ngoài Cửa" class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/cuoi-vo-truoc-ve.jpg" alt="Cuới Vợ Trước Về" class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+
+
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/cuon-theo-dong-xoay.jpg" alt="Cuốn Theo Dòng Xoáy" class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/dark-desiring.jpg" alt="Dark Desiring" class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/dat-rung-phuong-nam.jpg" alt="Đất Rừng Phương Nam " class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/di-huong.jpg" alt="Di Hương" class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/dieu-bi-mat.jpg" alt="Điều Bí Mật" class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/doan-tuyet-kieu-rome.jpg" alt="Đoạn Tuyệt Kiểu Rome" class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/doi-callboy.jpg" alt="Đời Callboy" class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/dung-nghi-toi-se-buong-em.jpg" alt="Đừng Nghĩ Tôi Sẽ Buônh Em " class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+
+                <div class="col-xs-6 col-md-3 col-sm-3 sach">
+                    <img src="img/duong-dua-cua-nhung-giac-mo.jpg" alt="Đường Đua Của Những Giấc Mơ" class="chinh-sach"/>
+                    <!--                     <div class="tieude text-center" >-->
+                    <!--                     </div>-->
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class="col-md-3 sidebar" style=" margin-left: -81px;border: 1px solid;height: 91px;border-radius: 5px;background:aquamarine;margin-top: 25px;">
+
+
+            <div class="panel panel-primary">
+                <div class="panel-heading"> <b>Danh Ngôn Hay </b> </div>
+                <div class="panel-body"> Những tư tưởng tốt nhất của chúng ta đến từ người khác. <br><br>
+                    <div class="fb-like" data-href="https://sachvui.com/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true">
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">Thể Loại Sách</div>
+                <ul id="sidebar" class="nav nav-pills nav-stacked">
+                    <li>
+                        <a href="https://sachvui.com/the-loai/tat-ca.html">
+                         <span class="glyphicon glyphicon-record">
+                         </span> Tất Cả Sách
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://sachvui.com/the-loai/van-hoc-viet-nam.html">
+                         <span class="glyphicon glyphicon-record">
+                         </span> Văn Học Việt Nam</a>
+                    </li>
+                    <li>
+                        <a href="https://sachvui.com/the-loai/truyen-ngan-ngon-tinh.html">
+                         <span class="glyphicon glyphicon-record">
+                         </span> Truyện Ngắn - Ngôn Tình</a>
+                    </li>
+
+                    <li>
+                        <a href="https://sachvui.com/the-loai/tieu-thuyet-nuoc-ngoai.html">
+                         <span class="glyphicon glyphicon-record">
+                         </span> Tiểu Thuyết Phương Tây</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-left: 105px">
+            <ul class="pagination justify-content-center" >
+                <li class="page-item"><a class="page-link" href="#"><<</a></li>
+                <li class="page-item "><a class="page-link" href="theloai1.html">1</a></li>
+                <li class="page-item active"><a class="page-link" href="Theloai2.html">2</a></li>
+                <li class="page-item "><a class="page-link" href="Theloai3.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="Theloai4.html">4</a></li>
+                <li class="page-item"><a class="page-link" href="Theloai5.html">5</a></li>
+                <li class="page-item"><a class="page-link" href="Theloai6.html">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">>></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--<div class="row mb-5">-->
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h5 class="ftco-heading-2">Giới thiệu</h5>
+                    <p>   Đây là trang web văn học miễn phí, phục vụ cho các bạn trong việc trao đổi văn học, chia sẻ niềm đam mê văn học với tất cả mọi người</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                        <li class="ftco-animate"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        <li class="ftco-animate"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="ftco-animate"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h5 class="ftco-heading-2">Liên kết</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Trang chủ</a></li>
+                        <li><a href="#" class="py-2 d-block">Thể loại</a></li>
+                        <li><a href="#" class="py-2 d-block">Tác giả</a></li>
+                        <li><a href="#" class="py-2 d-block">Tìm truyện</a></li>
+                        <li><a href="#" class="py-2 d-block">Hướng dẫn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h5 class="ftco-heading-2">Trợ giúp</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Đăng kí</a></li>
+                        <li><a href="#" class="py-2 d-block">Báo lỗi</a></li>
+                        <li><a href="#" class="py-2 d-block">Bảo mật</a></li>
+                        <li><a href="#" class="py-2 d-block">Liên hệ</a></li>
+                        <li><a href="#" class="py-2 d-block">Điều lệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h5 class="ftco-heading-2">Liên hệ</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Email:group17@email.com</a></li>
+                        <li><a href="#" class="py-2 d-block">FB:Group17</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--<script language="javascript">-->
+<!--    $(function() {-->
+<!--        $('#choose').pagination({-->
+<!--            items: 20,-->
+<!--            itemsOnPage: 2,-->
+<!--            cssStyle: 'light-theme',-->
+<!--            onPageClick: function(pageNumber){test(pageNumber)}-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
+</body>
+</html>
